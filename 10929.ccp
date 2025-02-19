@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
+using namwspace std;
 
 int main(){
     ios_base::sync_with_stdio(false);
