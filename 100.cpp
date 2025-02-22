@@ -24,9 +24,7 @@ int main(){
     while(cin >> a >> b){
         cout << a << " " << b << " ";
         if (a>b){
-            t=a;
-            a=b;
-            b=t;
+            t=a;a=b;b=t;
         }
         count=1;
         for (int i=a; i<=b; i++){
