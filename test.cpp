@@ -58,7 +58,7 @@ int main(){
                         }else{
                             dp[j].push_back(1);
                         }
-                    }else if (dp[node][0]==5){//輸入端口的下一層 不用計算 把值push給下一層
+                    }else if (dp[node][0]==5){//輸入端口的下一層 不用計算 push上一層的值
                         dp[j].push_back(dp[node][1]);
                     }
                 }
